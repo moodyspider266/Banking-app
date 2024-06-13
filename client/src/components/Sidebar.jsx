@@ -10,15 +10,14 @@ const Sidebar = () => {
     { name: 'Credit Cards', icon: 'credit-cards', link: '/credit-cards' },
     { name: 'Loans', icon: 'loans', link: '/loans' },
     { name: 'Services', icon: 'services', link: '/services' },
-    { name: 'My Privileges', icon: 'privileges', link: '/privileges' },
-    { name: 'Settings', icon: 'settings', link: '/settings' },
+    { name: 'Privileges', icon: 'privileges', link: '/privileges' },
+    { name: 'Settings', icon: 'settings', link: '/settings' },  
   ];
 
   return (
     <div className="sidebar">
-      <div className="sidebar-header">
-        {/* <img src={logo} alt="Logo" /> */}
-        <h1>Logo</h1>
+      <div className='logo-container'>
+        <a href="/" className='logo'><h1>YourBank</h1></a>
       </div>
       <div className="sidebar-options-container">
         <ul className="sidebar-options">
